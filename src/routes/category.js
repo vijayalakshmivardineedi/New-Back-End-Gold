@@ -14,7 +14,7 @@ router.delete('/admin/deleteCategory/:categoryId',  requireSignIn , adminMiddlew
 router.put('/admin/editCategory/:categoryId',  requireSignIn , adminMiddleware, editCategory);
 
 //user
-router.get('/user/getCategory', getCategory);
+router.get('/user/getCategory', getCategory)
 
 
 module.exports=router;
